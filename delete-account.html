@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atama Bildirim hesap silme ve kişisel veri silme talepleri">
+  <title>Hesap Silme | Atama Bildirim</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, sans-serif;
+      color-scheme: light;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f5f7fb;
+      color: #263247;
+      line-height: 1.75;
+    }
+    header {
+      background: linear-gradient(135deg, #172b58, #3267d6);
+      color: white;
+      padding: 56px 20px 65px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 30px;
+      margin: 0 0 8px;
+    }
+    header p { margin: 0; opacity: .9; }
+    main {
+      max-width: 820px;
+      margin: -25px auto 40px;
+      padding: 34px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(20,40,80,.07);
+      position: relative;
+    }
+    h2 {
+      color: #2454ae;
+      font-size: 19px;
+      margin-top: 30px;
+    }
+    p { margin-bottom: 15px; }
+    li { margin-bottom: 9px; }
+    a { color: #2454ae; }
+    .notice {
+      background: #eef4ff;
+      border-left: 4px solid #3267d6;
+      padding: 16px 18px;
+      border-radius: 8px;
+    }
+    .warning {
+      background: #fff7ed;
+      border-left: 4px solid #e6a23c;
+      padding: 16px 18px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 10px;
+      background: #3267d6;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 12px 0;
+    }
+    .button:hover { background: #2454ae; }
+    footer {
+      text-align: center;
+      color: #68758b;
+      padding: 20px;
+      font-size: 13px;
+    }
+    @media(max-width:600px) {
+      header { padding: 40px 16px 55px; }
+      header h1 { font-size: 25px; }
+      main { margin: -18px 12px 20px; padding: 22px; }
+      .button { display: block; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atama Bildirim</h1>
+    <p>Hesap Silme ve Veri Silme Talepleri</p>
+  </header>
+
+  <main>
+    <div class="notice">
+      Atama Bildirim kullanıcıları, hesaplarının ve
+      hesaplarıyla ilişkili kişisel verilerinin
+      silinmesini talep edebilir.
+    </div>
+
+    <h2>1. Hesap Silme Talebi Nasıl Gönderilir?</h2>
+    <p>
+      Atama Bildirim hesabınızın silinmesini
+      talep etmek için aşağıdaki adımları izleyin:
+    </p>
+    <ol>
+      <li>
+        Aşağıdaki "Hesap Silme Talebi Gönder"
+        butonuna tıklayın.
+      </li>
+      <li>
+        Açılan e-posta uygulamasında talebinizi
+        oluşturun.
+      </li>
+      <li>
+        Talebinizi, mümkünse Atama Bildirim
+        hesabınızda kayıtlı e-posta adresinden gönderin.
+      </li>
+      <li>
+        Gerekli kimlik doğrulama işlemleri
+        tamamlandıktan sonra talebiniz
+        değerlendirilecektir.
+      </li>
+    </ol>
+
+    <a class="button"
+       href="mailto:sametcil27@gmail.com?subject=Atama%20Bildirim%20-%20Hesap%20Silme%20Talebi&amp;body=Merhaba%2C%0A%0AAtama%20Bildirim%20hesabimin%20ve%20hesabimla%20iliskili%20kisisel%20verilerimin%20silinmesini%20talep%20ediyorum.%0A%0AKayitli%20e-posta%20adresim%3A%20%0A%0ATesekkurler.">
+      Hesap Silme Talebi Gönder
+    </a>
+
+    <p>
+      E-posta uygulamanız açılmıyorsa talebinizi
+      doğrudan
+      <a href="mailto:sametcil27@gmail.com">
+        sametcil27@gmail.com
+      </a>
+      adresine gönderebilirsiniz.
+    </p>
+
+    <h2>2. Silinmesi Talep Edilebilecek Veriler</h2>
+    <p>
+      Hesap silme talebi, hesabınızla ilişkili
+      aşağıdaki veri kategorilerini kapsayabilir:
+    </p>
+    <ul>
+      <li>E-posta adresi ve kullanıcı hesabı</li>
+      <li>Ad ve soyad bilgileri</li>
+      <li>KPSS, ALES ve YDS puanları</li>
+      <li>Sertifika bilgileri</li>
+      <li>Sürücü belgesi türü</li>
+      <li>Favorilere eklenen ilanlar</li>
+      <li>Kaydedilen ilan tercihleri</li>
+      <li>Hesapla ilişkilendirilmiş bildirim token'ları</li>
+    </ul>
+
+    <h2>3. Saklanabilecek Veriler</h2>
+    <p>
+      Bazı verilerin yasal yükümlülükler,
+      güvenlik veya uyuşmazlıkların çözümü
+      gibi geçerli nedenlerle saklanması
+      gerekebilir. Bu durumlarda ilgili
+      veriler, gerekli olduğu ölçüde ve
+      uygulanabilir saklama süreleri boyunca
+      muhafaza edilebilir.
+    </p>
+    <p>
+      Teknik günlükler ve yedeklerdeki verilerin
+      silinmesi, kullanılan sistemlerin
+      saklama ve silme süreçlerine bağlıdır.
+    </p>
+
+    <h2>4. Talebin Değerlendirilmesi</h2>
+    <p>
+      Talebiniz alındıktan sonra hesap
+      sahipliğinin doğrulanması gerekebilir.
+      Doğrulama için hesabınızın şifresini
+      e-posta yoluyla paylaşmayın.
+    </p>
+    <p>
+      Talepler, uygulanabilir mevzuat ve
+      veri saklama yükümlülükleri
+      kapsamında değerlendirilir.
+      Talebinizin sonucu hakkında
+      iletişim sağlanabilir.
+    </p>
+
+    <div class="warning">
+      <strong>Önemli:</strong>
+      Hesap silme işlemi sonucunda
+      hesabınıza bağlı favorileriniz,
+      tercihleriniz ve diğer kayıtlı
+      bilgileriniz geri alınamayabilir.
+    </div>
+
+    <h2>5. Gizlilik Politikası</h2>
+    <p>
+      Kişisel verilerin nasıl işlendiği
+      hakkında daha fazla bilgi için
+      <a href="privacy-policy.html">
+        Gizlilik Politikamızı
+      </a>
+      inceleyebilirsiniz.
+    </p>
+
+    <h2>6. İletişim</h2>
+    <p>
+      <strong>Uygulama:</strong> Atama Bildirim<br>
+      <strong>Geliştirici:</strong> chill Studio<br>
+      <strong>Destek:</strong>
+      <a href="mailto:sametcil27@gmail.com">
+        sametcil27@gmail.com
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    © 2026 chill Studio · Atama Bildirim
+  </footer>
+</body>
+</html>
